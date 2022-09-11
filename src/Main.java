@@ -7,10 +7,7 @@ public class Main {
         // In actual program, I would avoid using static which will cause memory leaks if used incorrectly. will also properly encapsulate
         // But, for you to read the algorithm easier for now.
 
-        // Run test cases
-        for(String testCase : Lab1.palTestCases){
-            System.out.println(Lab1.isPalindrome(testCase));
-        }
-
+        Lab1.test();
+        Lab2.test();
     }
 }

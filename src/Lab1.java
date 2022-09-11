@@ -26,6 +26,18 @@ public class Lab1 {
         }
     };
 
+    public static void test(){
+        for(String testCase: palTestCases){
+
+            if(isPalindrome(testCase)){
+                System.out.println("Palindrome");
+            }else{
+                System.out.println("Not Palindrome");
+            }
+
+        }
+    }
+
     public static boolean isPalindrome(String s){
         int left = 0;
         int right = s.length()-1;
